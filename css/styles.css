@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 9px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(250, 124, 34, 0.423); 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(27, 178, 254, 0.573); 
+  }
+body{
+    background-image: linear-gradient(rgb(255, 232, 21), rgb(140, 246, 79), rgb(136, 109, 245), rgb(250, 105, 105));
+    height: 100vh;
+    overflow: hidden;
+}
+.logo{
+    display: block;
+    margin:auto;
+    width: 50px;
+    height: 50px;
+    padding: 20px 0 5px 0;
+}
+.container{
+    background-image: url("/bgimg.jpg");
+    border-radius: 10px;
+    width: 50vw;
+    max-width: 700px;
+    margin: auto;
+    height: 63vh;
+    overflow:scroll;
+    overflow-x: hidden;
+    padding-top: 30px;
+    padding-bottom: 37px;
+}
+.topName{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(253, 45, 45);
+    background-color:rgb(250, 124, 34);
+    margin:auto;
+    transform: translate(0%,100%);
+    border-radius: 10px 10px 0 0;
+    width:50vw;
+    max-width: 700px;
+    height: 25px;
+    text-align:center;
+    font-size: 15px;
+}
+.message{
+    font-size: small;
+    width:fit-content;
+    overflow-wrap: normal;
+    margin: 5px;
+    padding: 5px;
+}
+.left{
+    border-radius: 15px 15px 15px 0;
+    max-width: 40%;
+    overflow-wrap:break-word;
+    background-color: rgb(27, 178, 254);
+    color: white;
+    float: left;
+    clear: both;
+}
+.right{
+    border-radius: 15px 15px 0 15px;
+    max-width: 40%;
+    overflow-wrap:break-word;
+    background-color: rgb(245, 131, 38);
+    color: white;
+    float: right;
+    clear: both;
+}
+.centerJoined{
+    background-color: rgba(0, 0, 0, 0.278);
+    color: rgb(0, 0, 0);
+    width:fit-content;
+    height:10px;
+    font-size:x-small;
+    border-radius: 7px;
+    margin: 10px auto;
+    clear: both;
+}
+.centerLeft{
+    background-color: rgba(0, 0, 0, 0.278);
+    color: rgb(0, 0, 0);
+    width:fit-content;
+    height:10px;
+    font-size:x-small;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 10px auto;
+    clear: both;
+}
+#send-container{
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+}
+.send{   
+    height: 25px;
+    position:absolute;
+    top: 82vh;
+    width: 50vw;
+    max-width: 700px;
+}
+#messageInp{
+    width: 84%;
+    border: 2px solid green;
+    border-radius: 15px 0px 0px 15px;
+    height: 26px;
+    padding-left: 10px;
+}
+.btn{
+    background-color: green;
+    border: 0px;
+    font-weight:700;
+    color:rgb(255, 255, 255);
+    border-radius: 0 50% 50% 0;
+    height: 31px;
+    width: 33px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:rgb(1, 73, 1);
+}
+.footer{
+    color: ivory;
+    display: block;
+    text-align:center;
+    margin-top: 8vh;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="chat.png"/>
+    <title>Let's Chat - Realtime Node.js & Socket.io Chat App</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+</head>
+<body>
+    <header>
+    <nav>
+        <img class="logo" src="chat.png" alt="logo"/>
+    </nav>
+</header>
+<main>
+    <!-- <div class="container"> -->
+        <div class="topName">
+          You are Online &#128994;
+        </div>
+        <div class="container">
+<div class="send">
+    <form action="#" id="send-container">
+        <input type="text" name="messageInp" id="messageInp" placeholder=" Message">
+        <button class="btn" type="submit">&#10148;</button>
+    </form>
+</div>
+</div>
+</main>
+<footer class="footer">
+    <hr/>
+    Copyright &copy; 2023 LetsChat.com
+</footer>
+</body>
+</html>
